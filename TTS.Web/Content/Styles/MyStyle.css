@@ -1,0 +1,116 @@
+﻿.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+    .tablink:hover {
+        background-color: #777;
+    }
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+.button-tab {
+    width: 50%;
+}
+
+#Home {
+    background-color: rgb(255, 212, 172);
+}
+
+#News {
+    background-color: rgb(255, 212, 172);
+}
+
+/*----------------------------------------------------------------------*/
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 200px;
+}
+
+.input-field {
+    width: 70%;
+    margin-left: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none;
+}
+
+    .input-field:focus {
+        border: 2px solid dodgerblue;
+    }
+
+.button-play {
+    background-color: rgb(83, 215, 255);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+    .active, .collapsible:hover {
+        background-color: #555;
+    }
+
+.content {
+    padding: 0 18px;
+    display: block;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.formula-box {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}

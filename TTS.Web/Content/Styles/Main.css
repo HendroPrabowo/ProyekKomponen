@@ -1,0 +1,118 @@
+﻿body {
+    background: url(/Content/Images/bg.png) repeat;
+    font-family: arial,sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+#nav {
+    height: 10px;
+    margin: 20px auto;
+    width: 400px;
+}
+
+#nav a {
+    color: #c1dced;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#nav ul {
+    float: right;
+    margin: 0;
+}
+
+#nav ul li {
+    float: left;
+    list-style: none;
+    margin-right: 5px;
+}
+
+#container {
+    background: url(/Content/Images/bg-container.png) no-repeat;
+    height: 300px;
+    margin: 20px auto;
+    width: 400px;
+}
+
+#container-inner {
+    padding: 20px;
+}
+
+label {
+    color: #222;
+    display: block;
+    margin-top: 10px;
+}
+
+label span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.select-wrap-left {
+    float: left;
+}
+
+label.select-wrap-right {
+    float: right;
+}
+
+textarea {
+    height: 60px;
+}
+
+textarea, select  {
+    font-family: arial, sans-serif;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+    display: block;
+    width: 350px;
+}
+
+textarea:focus, select:focus {
+    background-color: #fbffe0;
+}
+
+select {
+    padding: 5px;
+    width: 160px;
+}
+
+p.button-wrap {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    padding: 5px 30px;
+}
+
+#status {
+    color: #c3f7fc;
+    display: none;
+}
+
+#previous-requests {
+    color: #222222;
+    height: 210px;
+    font-size: 0.8em;
+    overflow-y: auto;
+}
+
+#previous-requests ul {
+    display: block;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#block-list {
+}
